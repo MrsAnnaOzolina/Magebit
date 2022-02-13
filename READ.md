@@ -1,11 +1,15 @@
-## Web Developer Test
+# Magebit
+Web Developer Test
+##  You can open published site here: https://mrsannaozolina.github.io/Magebit/
 
-You can use the [editor on GitHub](https://github.com/MrsAnnaOzolina/Magebit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+To run this webpage locally you have to do following steps:
+1. All files are under gh-pages;
 
-### To run this webpage locally you have to do following steps:
 
-1. Download all folder to you computer;
-2. Save downloaded files to you computer main disk;
+![gh_pages](https://user-images.githubusercontent.com/93320209/153767381-6ffad806-0b0e-41c1-b221-79c3c390aeb2.png)
+
+
+
+2. Download project files (all folder and files) to your computer;
 3. Open index.html file to run the webpage;
-4. 
 
