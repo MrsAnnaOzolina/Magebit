@@ -12,4 +12,7 @@ To run this webpage locally you have to do following steps:
 
 2. Download project files (all folder and files) to your computer;
 3. Open index.html file to run the webpage;
+4. !NB all the files must be saved in one place!
+
+### To check out data base on webpage you have to open database.phph on web. 
 
