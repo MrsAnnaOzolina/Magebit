@@ -6,5 +6,6 @@ You can use the [editor on GitHub](https://github.com/MrsAnnaOzolina/Magebit/edi
 
 1. Download all folder to you computer;
 2. Save downloaded files to you computer main disk;
-
+3. Open index.html file to run the webpage;
+4. 
 
