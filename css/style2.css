@@ -1,0 +1,609 @@
+/***** Desktop version *****/
+@media (min-width: 376px ){ 
+html,body {
+        font-size: 0px;
+        font-family: Georgia;
+        margin: 0;
+    }
+.background_image{
+        position: absolute;
+            width: 1240px;
+            height: 1080px;
+            left: 680px;
+            top:0px;
+            margin: 0px;
+            background-image: url('../images/Image.png');
+            background-repeat: no-repeat;
+}
+.desktop_base {
+   position: absolute;
+    width: 680px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(242, 245, 250, 1) 100% );
+} 
+.union {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+    margin: 0px;
+    background: url('../images/Union.png') no-repeat;
+}
+.pineapple {
+    position: absolute; 
+    width: 78px;
+    height: 16px;
+    left: 140px;
+    top: 120px;
+    margin: 0px;
+    background: url('../images/pineapple..png') no-repeat;
+}
+.links {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+    color: #6A707B;
+}
+.about{
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 331px;
+    top: 114px;
+    margin: 0px;
+}
+.how-it-works{
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 403px;
+    top: 114px;
+    margin: 0px;
+}
+.contact{
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 524px;
+    top: 114px;
+    margin: 0px;
+}
+.union_cup{
+    position: absolute;
+    width: 44px;
+    height: 70px;
+    left: 140px;
+    top: 269px;
+    background: url('../images/Union_cup.png');
+    display: none;
+}
+h1{
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 374px;
+    margin: 0px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821; 
+}
+h2 {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    margin: 0px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
+.text {
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 144px;
+    top: 562px;
+    margin: 0px;
+    padding: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: #F2F5FA;
+    border-radius: 0px;
+    color: #6A707B;
+    outline: none;
+}
+.ic_arrow{
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    left: 699px;
+    top: 567px;
+    margin: 0px;
+    background: url('../images/ic_arrow.png') no-repeat;
+    border: #FFFFFF;  
+}
+.ic_arrow:hover{
+    background-image: url('../images/ic_arrow_blue.png') ;
+}
+.checking{
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 100px;
+    top: 600px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B80808; 
+}
+.line{
+    position: absolute;
+    width: 4px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    margin: 0px;
+    background: #4066A5;
+}
+.base{
+    position:absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    margin: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+}
+.base:hover{
+    background: #FFFFFF;
+    border: 1px solid #4066A5;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+.checkmark{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 140px;
+    top: 663px; 
+    margin: 0px;
+}
+.TOS_Text{
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 181px;
+    top: 662px;
+    margin: 0px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6A707B;
+}
+.strong {
+    color: black;
+    line-height: 28px;
+}
+.strong:hover{
+    color: #4066A5;
+}
+.line1{
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+    margin: 0px;
+    background: #E3E3E4;
+
+}
+.facebook{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+    margin: 0px;
+   
+}
+.ic_facebook{
+    position: absolute;
+    width:8px;
+    height:16px;
+    top: 806px;
+    left:237px;
+    margin: 0px;
+}
+.ic_facebook:hover {
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;
+}
+.instagram{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 284px;
+    top: 791px;
+    margin: 0px;
+}
+.ic_instagram{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 299px;
+    top: 806px;
+    margin: 0px;
+}
+.ic_instagram:hover {
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;
+}
+
+.twitter{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 791px;
+    margin: 0px;
+}
+
+.ic_twitter{
+    position: absolute;
+    width: 16px;
+    height: 13px;
+    left: 365px;
+    top: 806px;
+    margin: 0px;
+}
+.ic_twitter:hover {
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;
+}
+.youtube{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 416px;
+    top: 791px;
+    margin: 0px;
+}
+.ic_youtube{
+    position: absolute;
+    width: 16px;
+    height: 11px;
+    left: 431px;
+    top: 808px;
+    margin: 0px;
+}
+.ic_youtube:hover {
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;  
+}
+}
+
+/*********************** Mobile version ******************/
+@media (max-width: 375px){
+    html{
+        position: relative;
+        font-size: 0px;
+        font-family: Georgia;
+        color: #FFFFFF; 
+    }
+  body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+div{
+    height: 100%;
+    width: 100%;
+}
+.background_image{
+    position: absolute;
+    width: 375px;
+    height: 746px;
+    left: 0px;
+    top: 66px;
+    background-image: url('../images/image_summer.png');
+    background-repeat: no-repeat;
+}
+.mobile_phone_base{
+        position: absolute;
+        width: 375px;
+        height: 66px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+}
+.union2 {
+        position: absolute;
+        width: 25px;
+        height: 40px;
+        left: 20px;
+        top: 10px;
+        background: url('../images/Union.png') no-repeat;
+}
+.links {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #6A707B; 
+}
+.about{
+        position: absolute;
+        width: 37px;
+        height: 24px;
+        left: 149px;
+        top: 21px;
+        margin: 0px;
+}
+.how-it-works{
+        position: absolute;
+        width: 80px;
+        height: 24px;
+        left: 206px;
+        top: 21px;
+        margin: 0px;
+}
+.contact{
+        position: absolute;
+        width: 49px;
+        height: 24px;
+        left: 306px;
+        top: 21px;
+        margin: 0px;
+}
+.desktop_base1 {
+        position:absolute;
+        width: 335px;
+        height: 371px;
+        left: 20px;
+        top: 254px;    
+        background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(242, 245, 250, 1) 100% );
+} 
+h1{
+        position: absolute;
+        width: 295px;
+        height: 34px;
+        left: 40px;
+        top: 284px;
+        margin:0px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        color: #131821; 
+}
+h2 {
+        position: absolute;
+        width: 295px;
+        height: 52px;
+        left: 40px;
+        top: 328px;
+        margin:0px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+ }
+    .text {
+        position: absolute;
+        width: 227px;
+        height: 24px;
+        left: 59px;
+        top: 418px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        border: #F2F5FA;
+        color: #6A707B;
+        padding: 0px;
+}
+.ic_arrow{
+        position: absolute;
+        width: 24px;
+        height: 14px;
+        left: 296px;
+        top: 423px;
+        margin:0px;
+        background: url('../images/ic_arrow.png') no-repeat;
+        border: #FFFFFF;
+}
+.ic_arrow:hover{
+    background-image: url('../images/ic_arrow_blue.png') ;
+}
+.checking {
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 40px;
+    top: 447px;
+    margin:0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B80808; 
+}
+.line{
+        position: absolute;
+        width: 4px;
+        height: 60px;
+        left: 40px;
+        top: 400px;
+        margin:0px;
+        background: #4066A5;
+}
+.base{
+        position: absolute;
+        width: 295px;
+        height: 60px;
+        left: 40px;
+        top: 400px;
+        margin:0px;
+        background: #FFFFFF;
+        border: 1px solid #E3E3E4;
+        box-sizing: border-box;
+}
+.base:hover{
+    background: #FFFFFF;
+    border: 1px solid #4066A5;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+.checkmark{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 40px;
+        top: 481px;
+        margin: 0px;
+        background: #4066A5;
+        border-radius: 3px;
+        
+}
+.checkmark1{
+        position: absolute;
+        width: 14px;
+        height: 11px;
+        left: 46px;
+        top: 485px;
+        margin: 0px;
+}
+.TOS_Text{
+        position: absolute;
+        width: 254px;
+        height: 28px;
+        left: 81px;
+        top: 480px;
+        margin: 0px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #6A707B;
+}
+.strong {
+        color: black;
+        line-height: 28px;
+}
+.strong:hover{
+    color: #4066A5;
+}
+.line1{
+        position: absolute;
+        width: 295px;
+        height: 1px;
+        left: 40px;
+        top: 528px;
+        margin:0px;
+        background: #E3E3E4;
+}
+.facebook{
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        left: 73px;
+        top: 549px;
+}
+.ic_facebook{
+        position: absolute;
+        width:8px;
+        height:16px;
+        top: 564px;
+        left:92px;
+        opacity: 40%;
+}
+.ic_facebook:hover {
+        border: 2px solid #E2E3E4;
+        box-sizing: border-box;
+}
+.instagram{
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        left: 129px;
+        top: 549px;
+}
+.ic_instagram{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: 144px;
+        top: 564px;
+}
+.ic_instagram:hover {
+        border: 2px solid #E2E3E4;
+        box-sizing: border-box;
+}
+.twitter{
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        left: 185px;
+        top: 549px;
+}
+    .ic_twitter{
+        position: absolute;
+        width: 16px;
+        height: 13px;
+        left: 200px;
+        top: 564px;
+}
+.ic_twitter:hover {
+        border: 2px solid #E2E3E4;
+        box-sizing: border-box;
+}
+.youtube{
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        left: 241px;
+        top: 549px;
+}
+.ic_youtube{
+        position: absolute;
+        width: 16px;
+        height: 11px;
+        left: 256px;
+        top: 567px;
+}
+.ic_youtube:hover {
+        border: 2px solid #E2E3E4;
+        box-sizing: border-box;    
+}
+   
+}
